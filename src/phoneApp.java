@@ -1,7 +1,7 @@
 
 public class phoneApp {
 
-	public static void main(String[] args) {
+	public static void main(String[] args){
 		Phone phone = new Phone("iPhone","15", 57);
 		phone.printData();
 		phone.use();
@@ -39,21 +39,6 @@ class Phone{
 			else if(batteryLevel==0) {
 				System.out.println("Phone is dead.");
 			}
-=======
-			System.out.println("Phone is charging");
-			batteryLevel++;
-		}
-		public void use() //Creating the use method
-		{
-			if (batteryLevel > 0)
-			{
-			System.out.println("Phone is in use");
-			batteryLevel--;
-			} else
-			{
-	            System.out.println("Phone is out of battery. Charge before use.");
-	        }
->>>>>>> 6c1e673556515ffee202a9f6c2dbeaae669da4f6
 		}
 		public void printData() //Creating the printData method
 		{
