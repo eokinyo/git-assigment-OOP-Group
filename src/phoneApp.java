@@ -25,6 +25,7 @@ class Phone{
 		public void charge() //Creating the charge method
 		{
 			System.out.println("Phone is charging");
+			batteryLevel++;
 		}
 		public void use() //Creating the use method
 		{
@@ -32,7 +33,10 @@ class Phone{
 			{
 			System.out.println("Phone is in use");
 			batteryLevel--;
-			}
+			} else
+			{
+	            System.out.println("Phone is out of battery. Charge before use.");
+	        }
 		}
 		public void printData() //Creating the printData method
 		{
