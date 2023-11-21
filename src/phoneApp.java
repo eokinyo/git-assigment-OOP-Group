@@ -6,6 +6,8 @@ public class phoneApp {
 
 		System.out.println("Group Members");
 		System.out.println("Kosova Nart, AN Nguyen Anh, AN Novacsek Adam, Okinyo Elly Okinyo Elly");
+		System.out.println("Nart test print");
 	}
+
 
 }
