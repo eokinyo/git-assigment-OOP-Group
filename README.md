@@ -17,7 +17,7 @@ OOP Git Group Assignment
 
 4. Create an object called phone1. Assign the values like "Apple" (brand), "iPhone 12" (model), 50 (battery level). Call methods printData, use, and charge, then call printData again (make sure the battery level changes). - Completed
 
-5. Try to modify the use method so that the battery level has to be more than 0.
+5. Try to modify the use method so that the battery level has to be more than 0.  - Completed
 
 6. Create a method recharge. The method has one parameter amount. Using amount, you can define how much the phone is recharged. Consider that there might be some battery level remaining. In the method, print something like:
 
