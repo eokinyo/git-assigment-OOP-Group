@@ -27,6 +27,7 @@ public class phoneApp
 		
 		phone.printData();
 		phone.use();
+		phone.recharge(20);
 		phone.batteryState();
 		
 		do 
@@ -99,5 +100,10 @@ class Phone
 				System.out.println("Phone is not charging. Battery level: " + batteryLevel);
 		    }
 			
+		}
+		public void recharge(int amount) //Create a method recharge
+		{
+			int recharge_amount = amount+batteryLevel;
+			System.out.println("Batery level: "+ batteryLevel +" Recharge: "+amount + " <-- this is the parameter amount Battery level after recharge:" + recharge_amount);
 		}
 }
