@@ -23,9 +23,9 @@ OOP Git Group Assignment
 
    Battery level: 10
    Recharge: 5 <-- this is the parameter amount
-   Battery level after recharge: 15
+   Battery level after recharge: 15    - Completed
 
-7. Create a default constructor.
+7. Create a default constructor.    -Completed
 
 8. Create a parameterized constructor that allows you to assign the values of brand, model, and batteryLevel.
 
