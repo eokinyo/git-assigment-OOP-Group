@@ -27,7 +27,7 @@ OOP Git Group Assignment
 
 7. Create a default constructor.    -Completed
 
-8. Create a parameterized constructor that allows you to assign the values of brand, model, and batteryLevel.
+8. Create a parameterized constructor that allows you to assign the values of brand, model, and batteryLevel.  - Completed
 
-9. Create a new object (phone2) using the parameterized constructor.
+9. Create a new object (phone3) using the parameterized constructor.     - Completed.
 

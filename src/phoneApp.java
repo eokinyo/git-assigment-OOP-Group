@@ -24,6 +24,8 @@ public class phoneApp
 		
 		Phone phone = new Phone(brand,model,batteryLevel);
 		Phone phone2 = new Phone(); //new phone, currently no use
+		Phone phone3 = new Phone("Apple", "iPhone 13", 100); //Create new object phone3 using the parameterized constructor 
+
 		
 		phone.printData();
 		phone.use();
@@ -105,5 +107,11 @@ class Phone
 		{
 			int recharge_amount = amount+batteryLevel;
 			System.out.println("Batery level: "+ batteryLevel +" Recharge: "+amount + " <-- this is the parameter amount Battery level after recharge:" + recharge_amount);
+		}
+		public Phone(String brand, String model) //parameterized constructor
+		{	
+			this.brand = brand;
+			this.model = model;
+			this.batteryLevel = batteryLevel;		
 		}
 }
