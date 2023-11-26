@@ -59,7 +59,7 @@ class Phone
 		
 	}
 	
-	public Phone(String brand, String model, int batteryLevel) //parameterized constructor
+	public Phone(String brand, String model, int batteryLevel) //parameterized constructor 
 	{	
 		this.brand = brand;
 		this.model = model;
@@ -107,11 +107,5 @@ class Phone
 		{
 			int recharge_amount = amount+batteryLevel;
 			System.out.println("Batery level: "+ batteryLevel +" Recharge: "+amount + " <-- this is the parameter amount Battery level after recharge:" + recharge_amount);
-		}
-		public Phone(String brand, String model) //parameterized constructor
-		{	
-			this.brand = brand;
-			this.model = model;
-			this.batteryLevel = batteryLevel;		
 		}
 }
